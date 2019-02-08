@@ -1,1 +1,23 @@
-Checking this out - maybe it makes more sense to do project scoping here?
+
+## Project scoping and brainstorm
+
+
+#### Purpose: to develop a program that suggests biosynthetic enzyme pathways for user-provided molecular end products.
+
+#### To do:
+* Lit review
+  * Everyone find/read ~3 papers relevant to the project at hand, and generate an [annotated bibliography](www.link to what an annotated bibliography is)
+  
+
+#### Databases:
+<> [MetaCyc](https://metacyc.org/)
+<> [KEGG](https://www.genome.jp/kegg/)
+<>
+<>
+
+
+#### Sub-problems:
+* Development plan
+  * Gantt Charts
+* Molecule handling
+  * SMILES strings? [add link]()
