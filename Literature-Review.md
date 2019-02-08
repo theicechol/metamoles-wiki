@@ -1,5 +1,6 @@
 We can add our [annotated bibliographies](https://guides.library.cornell.edu/annotatedbibliography) here
 
-**Granda, J. M., Donina, L., Dragone, V., Long, D.-L., Cronin, L. (1986). Controlling an organic synthesis robot with machine learning to search for new reactivity. _Nature_, 559, 378-381.
-      The authors utilized supported vector machine (SVM) to predict the reactivity of chemical reactions. The model was trained on randomly generated chemical reactions which were performed by a robot equipped with sufficient characterization instruments. The generated model can efficiently predict the reactivity the other reactions with the reaction universe. The SVM model might be applicable to this project using similar vector representation shown in the article.
+**Granda, J. M., Donina, L., Dragone, V., Long, D.-L., Cronin, L. (1986). Controlling an organic synthesis robot with machine learning to search for new reactivity. _Nature_, 559, 378-381.**
+> The authors utilized supported vector machine (SVM) to predict the reactivity of chemical reactions. The model was trained on randomly generated chemical reactions which were performed by a robot equipped with sufficient characterization instruments. The generated model can efficiently predict the reactivity the other reactions with the reaction universe. The SVM model might be applicable to this project using similar vector representation shown in the article.
+
 See further explanation in the [full review](https://github.com/theicechol/metamoles/wiki/2018---Controlling-an-organic-synthesis-robot-with-machine-learning-to-search-for-new-reactivity)
