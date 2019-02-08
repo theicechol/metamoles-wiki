@@ -10,7 +10,7 @@ In brief, the author manufactured a chemical synthesis robot equipped with spect
 This work use SVM (supported vector machine) for the machine learning method. The created model is called LDA (linear discriminant analysis) which was trained with collected data which can be used to predict the reactivity of a particular reaction. There is a term one-hot encoding which I don't yet understand what it is.
 
 ### Application to our ideas
-The compounds in chemical reactions were categorized into reactant1, reactant2, ligand, base, and solvent. This annotation of the molecules may be applied to a biochemical reaction by replacing ligand to cofactors, e.g., Mg2+ PLP, and alter base into ATP, NADPH or the compounds with a similar role. The solvent in a biochemical reaction should be neglected even though culture media can affect the production of the enzyme but let's leave it for now.
+The compounds in chemical reactions were categorized into reactant1, reactant2, ligand, base, and solvent. This annotation of the molecules may be applied to a biochemical reaction by replacing ligand to cofactors, e.g., Mg<sup>2+</sup>, PLP, and alter base into ATP, NADPH or the compounds with a similar role. The solvent in a biochemical reaction should be neglected even though culture media can affect the production of the enzyme but let's leave it for now.
 The other parameters are reaction temperature and time. These two parameters are relevant to our work as well. The kinetic parameter might be of use for evaluation of reaction efficiency. Biochemical reaction temperature has a narrower range since we usually perform metabolic engineering for cell culture from 25 to 37 °C 
 
 ### Additional notes
