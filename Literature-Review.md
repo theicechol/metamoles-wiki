@@ -12,8 +12,8 @@ biochemical knowledge through graph databases. *PLoS ONE* 12(7): e0179130.**
 See further explanation in the [full review](https://doi.org/10.1371/journal.pone.0179130)
 
 **Jeffryes et al. MINEs: open access databases of computationally predicted enzyme promiscuity products for untargeted metabolomics. *J Cheminform* (2015) 7:44.**
-> The authors created MINEs as an extension to databases with known enzyme products and metabolites. The [database](http://minedatabase.mcsanl.gov) was populated using the Biochemical Network Integrated Computational Explorer algorithm to propose novel chemical structures and reactions for the database. These novel entries are suspected enzyme sidereactions that account for the currently unidentified peaks in metabolomics (mostly LCMS) data.
+> The authors created MINEs as an extension to databases with known enzyme products and metabolites. The [database](http://minedatabase.mcsanl.gov) was populated using the Biochemical Network Integrated Computational Explorer algorithm to propose novel chemical structures and reactions for the database. These novel entries are suspected enzyme side reactions that account for the currently unidentified peaks in metabolomics (mostly LCMS) data.
 
 *Could be useful in terms of predicted enzyme promiscuity*
 
-See further explanation in the [full review](temp link)
+See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/MINEsOpenAccessDatabasesOfComp.pdf)
