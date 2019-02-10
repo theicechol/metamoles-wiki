@@ -4,3 +4,10 @@ We can add our [annotated bibliographies](https://guides.library.cornell.edu/ann
 > The authors utilized supported vector machine (SVM) to predict the reactivity of chemical reactions. The model was trained on randomly generated chemical reactions which were performed by a robot equipped with sufficient characterization instruments. The generated model can efficiently predict the reactivity the other reactions with the reaction universe. The SVM model might be applicable to this project using similar vector representation shown in the article.
 
 See further explanation in the [full review](https://github.com/theicechol/metamoles/wiki/2018---Controlling-an-organic-synthesis-robot-with-machine-learning-to-search-for-new-reactivity)
+
+**Swainston N, Batista-Navarro R, Carbonell P, Dobson PD, Dunstan M, Jervis AJ, et al. (2017) biochem4j: Integrated and extensible
+biochemical knowledge through graph databases. *PLoS ONE* 12(7): e0179130.**
+> The authors created a graph database (biochem4j) that integrates organism, enzyme, reaction, and product data from ChEBI, MNXref, Rhea, KEGG, UniProt, and NCBI. The data exists as nodes that are connected by specified relationships; querying occurs using the CYPHER language. This database was created with metabolic engineering in mind, so it readily connects chemical products with pathways from a starting material. The [text scraping](https://github.com/synbiochem/biochem4j) and some implementation code is in Python and has [Python dependencies](https://github.com/synbiochem/synbiochem-py).
+
+See further explanation in the [full review] (https://doi.org/
+10.1371/journal.pone.0179130)
