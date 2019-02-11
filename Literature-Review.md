@@ -28,7 +28,7 @@ See further explanation in the [full review](https://github.com/theicechol/metam
 See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Neural-Symbolic%20Machine%20Learning%20for%20Retrosynthesis.pdf) or [supporting information](chem201605499-sup-0001-misc_information.pdf)
 
 **Pertussi, D., Moura, M., Jeffryes, J., Prabhu, S., Walters Biggs, B., Tyo, K.E. Predicting novel substrates for enzymes with minimal experimental effort with active learning. *Metabolic Engineering* (2017), 44, 171-181.**
-> The authors developed an algorithm (SimAL) that utilizes cheminformatics in a support vector machine learning approach to predict an enzyme's promiscuity with 33% less experimental observations. The intended purpose of this characterization of promiscuity is to determine the most informative substrates to test next for a given enzyme.
+> The authors developed an [algorithm (SimAL)] (https://github.com/tyo-nu/SimAL) that utilizes cheminformatics in a support vector machine learning approach to predict an enzyme's promiscuity with 33% less experimental observations. The intended purpose of this characterization of promiscuity is to determine the most informative substrates to test next for a given enzyme.
 
 *This is a helpful paper because we want to do essentially the same thing but in reverse, choosing enzymes that are potentially promiscuous towards our selected substrate.*
 
