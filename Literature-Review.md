@@ -14,6 +14,15 @@ See further explanation in the [full review](https://doi.org/10.1371/journal.pon
 **Jeffryes et al. MINEs: open access databases of computationally predicted enzyme promiscuity products for untargeted metabolomics. *J Cheminform* (2015) 7:44.**
 > The authors created MINEs as an extension to databases with known enzyme products and metabolites. The [database](http://minedatabase.mcsanl.gov) was populated using the Biochemical Network Integrated Computational Explorer algorithm to propose novel chemical structures and reactions for the database. These novel entries are suspected enzyme side reactions that account for the currently unidentified peaks in metabolomics (mostly LCMS) data.
 
-*Could be useful in terms of predicted enzyme promiscuity*
+* *Could be useful in terms of predicted enzyme promiscuity*
 
 See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/MINEsOpenAccessDatabasesOfComp.pdf)
+
+**Seglers, M.H.S. and Mark. P. Waller. Neural-Symbolic Machine Learning for Retrosynthesis and Reaction Prediction. *Chem. Eur. J.* (2017), 23, 5966-5971.** 
+> The authors developed a neural-symoblic model capabale of reaction prediction and retrosynthesis. The model was trained with known reactions and the corresponding reaction rule with the goal of learning functional group patterns and how they changed during reactions. Molecules were encoded as Extended-Connectivity Fingerprints (ECFP4), creating vectors that contain a count of occuring functional groups. 
+
+* *Six hours to train on an **impressive** GPU - we will need to limit our scope to things we can do in a similar timeframe with our computing resources*
+
+* Everything I've read so far uses RDKit
+
+See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Neural-Symbolic%20Machine%20Learning%20for%20Retrosynthesis.pdf) or [supporting information](chem201605499-sup-0001-misc_information.pdf)
