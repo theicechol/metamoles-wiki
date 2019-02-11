@@ -2,3 +2,4 @@
 - [Project Scoping](https://github.com/theicechol/metamoles/wiki/Project-Scoping)
 - [Literature Review](https://github.com/theicechol/metamoles/wiki/Literature-Review)
     - [2018 Robot Org. Synt.](https://github.com/theicechol/metamoles/wiki/2018---Controlling-an-organic-synthesis-robot-with-machine-learning-to-search-for-new-reactivity)
+- [Questions and Considerations](https:github.com/theicechol/metamoles/wiki/Questions-and-Considerations)
