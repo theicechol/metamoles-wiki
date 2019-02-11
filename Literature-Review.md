@@ -1,7 +1,8 @@
 We can add our [annotated bibliographies](https://guides.library.cornell.edu/annotatedbibliography) here
 
 **Coley, C. W., Rogers, L., Green, W. H., & Jensen, K. F. Computer-Assisted Retrosynthesis Based on Molecular Similarity. *ACS central science* (2017), 3(12), 1237-1245.**
-> The authors used molecular similarity to rank one-step retrosynthetic disconnections based on analogy to precedent reactions.
+> The authors used molecular similarity to rank one-step retrosynthetic disconnections based on analogy to precedent reactions. Reaction templates were used only at the most rudimentary level to generate chemically valid precursor molecules. Similarity was calculated by reflecting the extent of overlapping substructures. Quantification of molecular similarity generally requires fingerprinting technique and this research focus their evaluation on Morgan circular fingerprint as implemented in RDKit. 
+
 
 See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Computer-Assisted%20Retrosynthesis%20Based%20on%20Molecular%20Similarity.pdf)
 
