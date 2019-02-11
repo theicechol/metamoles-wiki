@@ -43,3 +43,10 @@ See further explanation in the [full review]
 
 **Feng, Fan, Luhua Lai, and Jianfeng Pei. "Computational chemical synthesis analysis and pathway design." Frontiers in chemistry 6 (2018).**
 > The authors introduce two-step models which combine reaction rules and statistical method. Machine learning plays the role of decision making and the decision gets generated using reaction rules or structural rules. They also mention about fully end-to-end retrosynthesis analysis with deep neural networks. However, they point out the low accuracy of retrosynthesis prediction of this method. 
+
+**Hadadi, Noushin, et al. "ATLAS of biochemistry: a repository of all possible biochemical reactions for synthetic biology and metabolic engineering studies." ACS synthetic biology 5.10 (2016).**
+> The authors built an online database they are calling the “ATLAS of biochemistry” that uses BNICE (Biochemical Network Integrated Computational Explorer) framework to connect KEGG metabolites to one another via predicted enzymatic reactions. The database successfully reconstructed 6651 out of 9911 annotated KEGG reactions (as of 2015), and suggested over 130,000 hypothetical reactions between metabolites, for which enzymes have yet to be discovered.
+
+_One possible project scope refinement direction we could take: looking at the predicted enzyme reactions and attempting to predict candidate genes to investigate, or at least candidate genomes in which the enzyme might reside._
+
+Full paper [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b00054)
