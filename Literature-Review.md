@@ -1,6 +1,6 @@
 We can add our [annotated bibliographies](https://guides.library.cornell.edu/annotatedbibliography) here
 
-**Coley, C. W., Rogers, L., Green, W. H., & Jensen, K. F. Computer-Assisted Retrosynthesis Based on Molecular Similarity. *ACS central science*, (2017), 3(12), 1237-1245.
+**Coley, C. W., Rogers, L., Green, W. H., & Jensen, K. F. Computer-Assisted Retrosynthesis Based on Molecular Similarity. *ACS central science*, (2017), 3(12), 1237-1245.**
 >
 
 **Granda, J. M., Donina, L., Dragone, V., Long, D.-L., Cronin, L. (1986). Controlling an organic synthesis robot with machine learning to search for new reactivity. _Nature_, 559, 378-381.**
