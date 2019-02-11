@@ -26,3 +26,6 @@ See further explanation in the [full review](https://github.com/theicechol/metam
 *Everything I've read so far uses RDKit*
 
 See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Neural-Symbolic%20Machine%20Learning%20for%20Retrosynthesis.pdf) or [supporting information](chem201605499-sup-0001-misc_information.pdf)
+
+**Pertussi, D., Moura, M., Jeffryes, J., Prabhu, S., Walters Biggs, B., Tyo, K.E. Predicting novel substrates for enzymes with minimal experimental effort with active learning. *Metabolic Engineering* (2017), 44, 171-181.**
+
