@@ -41,5 +41,5 @@ See further explanation in the [full review](https://github.com/theicechol/metam
 See further explanation in the [full review]
 ()
 
-**Feng, Fan, Luhua Lai, and Jianfeng Pei. "Computational chemical synthesis analysis and pathway design." Frontiers in chemistry 6 (2018).
+**Feng, Fan, Luhua Lai, and Jianfeng Pei. "Computational chemical synthesis analysis and pathway design." Frontiers in chemistry 6 (2018).**
 > The authors introduce two-step models which combine reaction rules and statistical method. Machine learning plays the role of decision making and the decision gets generated using reaction rules or structural rules. They also mention about fully end-to-end retrosynthesis analysis with deep neural networks. However, they point out the low accuracy of retrosynthesis prediction of this method. 
