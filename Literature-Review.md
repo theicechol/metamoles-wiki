@@ -49,4 +49,4 @@ See further explanation in the [full review]
 
 _One possible project scope refinement direction we could take: looking at the predicted enzyme reactions and attempting to predict candidate genes to investigate, or at least candidate genomes in which the enzyme might reside._
 
-Full paper [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b00054)
+Full paper can be found [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b00054) and you can see the database homepage [here](http://lcsb-databases.epfl.ch/atlas/Home)
