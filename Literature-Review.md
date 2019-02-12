@@ -47,12 +47,16 @@ See further explanation in the [full review]
 **Hadadi, Noushin, et al. "ATLAS of biochemistry: a repository of all possible biochemical reactions for synthetic biology and metabolic engineering studies." ACS synthetic biology 5.10 (2016).**
 > The authors built an online database they are calling the “ATLAS of biochemistry” that uses BNICE (Biochemical Network Integrated Computational Explorer) framework to connect KEGG metabolites to one another via predicted enzymatic reactions. The database successfully reconstructed 6651 out of 9911 annotated KEGG reactions (as of 2015), and suggested over 130,000 hypothetical reactions between metabolites, for which enzymes have yet to be discovered.
 
+_One possible project scope refinement direction we could take: looking at the predicted enzyme reactions and attempting to predict candidate genes to investigate, or at least candidate genomes in which the enzyme might reside._
+
+Full paper can be found [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b00054) and you can see the database homepage [here](http://lcsb-databases.epfl.ch/atlas/Home)
 
 **Heckmann, David, et al. "Machine learning applied to enzyme turnover numbers reveals protein structural correlates and improves metabolic models." Nature communications 9.1 (2018): 5252.**
 
 > Authors used machine learning to predict catalytic turnover numbers in E-coli based on integrated at a on enzyme biochemistry, protein structure, and network context. They combined known correlates of cat with novel features for enzyme structure, biochemical mechanism, network context, and assay condition to build machine learning models of k cat in vitro and k appmax. Although this method gives more insight to mechanistic metabolic models, one major limitation of statistical modelling of catalytic turnover numbers is the small size of the dataset (k cat in vitro and k app, max). The most promising output k app, max is limited to unique homomers. 
 
+Wang, Lin, et al. "A review of computational tools for design and reconstruction of metabolic pathways." Synthetic and systems biotechnology 2.4 (2017)
 
-_One possible project scope refinement direction we could take: looking at the predicted enzyme reactions and attempting to predict candidate genes to investigate, or at least candidate genomes in which the enzyme might reside._
+> In this paper the authors review a broad range of existing computational tools for retrobiosynthetic pathway design. They group these tools into three categories based on network representation, and search strategy: graph-based, stoichiometry-based, and retrosynthesis-based. The authors go into some technical detail around key requirements of a design tool, including the database, network representation, network pruning, search algorithm, and pathway ranking. For each of these requirements the authors discuss different existing implementation strategies and tradeoffs between one implementation over the other. It looks as though a majority of the tools reviewed use KEGG as their database.
 
-Full paper can be found [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b00054) and you can see the database homepage [here](http://lcsb-databases.epfl.ch/atlas/Home)
+Full paper [here](https://www.sciencedirect.com/science/article/pii/S2405805X17300820) and some helpful graphics [here]()
