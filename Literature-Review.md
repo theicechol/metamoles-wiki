@@ -38,8 +38,7 @@ See further explanation in the [full review](https://github.com/theicechol/metam
 
 *This is a helpful paper because we want to do essentially the same thing but in reverse, choosing enzymes that are potentially promiscuous towards our selected substrate.*
 
-See further explanation in the [full review]
-()
+See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Pertusi%20et%20al.%20-%20Predicting%20novel%20substrates%20for%20enzymes%20with%20minimal%20experimental%20effort%20with%20active%20learning%20-%202017%20-%20Unknown.pdf)
 
 **Feng, Fan, Luhua Lai, and Jianfeng Pei. "Computational chemical synthesis analysis and pathway design." Frontiers in chemistry 6 (2018).**
 > The authors introduce two-step models which combine reaction rules and statistical method. Machine learning plays the role of decision making and the decision gets generated using reaction rules or structural rules. They also mention about fully end-to-end retrosynthesis analysis with deep neural networks. However, they point out the low accuracy of retrosynthesis prediction of this method. 
