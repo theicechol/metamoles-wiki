@@ -8,13 +8,6 @@
 * Lit review
   * Everyone find/read ~3 papers relevant to the project at hand, and generate an [annotated bibliography](https://guides.library.cornell.edu/annotatedbibliography)
   
-
-#### Databases:
-* [MetaCyc](https://metacyc.org/)
-* [KEGG](https://www.genome.jp/kegg/)
-* [Brenda](https://www.brenda-enzymes.org/)
-* [ExPASy](https://web.expasy.org/pathways/)
-
 See the further review for [Metabolic pathway databases and model repositories](https://link.springer.com/content/pdf/10.1007%2Fs40484-017-0108-3.pdf)
 
 #### Sub-problems:
@@ -29,9 +22,11 @@ See the further review for [Metabolic pathway databases and model repositories](
   * Enzymes
   * Reactions
 * Database
-  * KEGG
-  * ATLAS
-  * Brenda?
+  * [KEGG](https://www.genome.jp/kegg/)
+  * [ATLAS](http://lcsb-databases.epfl.ch/atlas/)
+  * [Brenda?](https://www.brenda-enzymes.org/)
+  * [MetaCyc?](https://metacyc.org/)
+  * [Biochem4j?](https://github.com/synbiochem/biochem4j)
 
 Key practical questions to be solved
 - What tools and methods are available right now?
