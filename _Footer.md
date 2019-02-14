@@ -1,2 +1,1 @@
-[Literature Review](https://github.com/theicechol/metamoles/wiki/Literature-Review)     
-[PDFs](https://github.com/theicechol/metamoles/tree/master/Related%20articles)
+[See PDF files here](https://github.com/theicechol/metamoles/tree/master/Related%20articles)
