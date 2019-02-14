@@ -22,3 +22,11 @@ See the further review for [Metabolic pathway databases and model repositories](
   * Gantt Charts
 * Molecule handling
   * SMILES strings? [add link]()
+
+Key practical questions to be solved
+- What tools and methods are available right now?
+- Why do we have to do this? Will it be useful?
+- Which database should be focused on?
+- How do we extract data from the available database?
+- What is our short-term, medium, and long-term goals?
+- How to assign each part of the project to our members appropriately?
