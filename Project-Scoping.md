@@ -27,6 +27,9 @@ See the further review for [Metabolic pathway databases and model repositories](
   * [Brenda?](https://www.brenda-enzymes.org/)
   * [MetaCyc?](https://metacyc.org/)
   * [Biochem4j?](https://github.com/synbiochem/biochem4j)
+* Validation
+  * Native Pathway e.g. GTP to Folate
+  * Unnatural but reported pathways
 * Existing Software
   * RDKit
 
