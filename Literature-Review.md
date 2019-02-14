@@ -60,3 +60,8 @@ Full paper can be found [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b
 
 Full paper [here](https://www.sciencedirect.com/science/article/pii/S2405805X17300820) and some helpful graphics [here](https://github.com/theicechol/metamoles/wiki/Review-of-metabolic-pathway-design-tools-(2017))
 In the computational tools review, it concludes "Overall, a completely automated pipeline that goes from selection of source and target molecule to the final output of DNA sequences of a pathway would significantly facilitate the discovery of new metabolic pathways for various applications." This might be something we could build.
+
+Segler, M. H. S., Preuss, M., Waller, M. P. "Planning chemical synthesis with deep neural networks and symbolic AI" **2018**, _Nature_ 555, 604–610
+> The author made a platform for reaction planning based on retrosynthesis. They used MTCS (Monte-Carlo Tree Search) and Neural Networks to build to the platform. The data used for training came from Reaxys database in which they extract reaction center from the published chemical reactions prior to 2015 for training and the rest for testing. The double-blind test with chemistry graduate students suggested that this search is not significantly inferior to those published in the literature.
+
+[See details here](https://github.com/theicechol/metamoles/wiki/2018---Planning-chemical-syntheses-with-deep-neural-networks-and-symbolic-AI)
