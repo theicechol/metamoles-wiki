@@ -23,6 +23,16 @@ See the further review for [Metabolic pathway databases and model repositories](
 * Molecule handling
   * SMILES strings? [add link]()
 
+#### Tools:
+* Data Extraction
+  * Compounds
+  * Enzymes
+  * Reactions
+* Database
+  * KEGG
+  * ATLAS
+  * Brenda?
+
 Key practical questions to be solved
 - What tools and methods are available right now?
 - Why do we have to do this? Will it be useful? Clarify the novelty of this project!
