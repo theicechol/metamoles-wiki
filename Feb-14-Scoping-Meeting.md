@@ -25,5 +25,6 @@ Testing data:
 
 Requirements:
 - Metric for chemical similarity
+     - similarity index : Tanimoto, Morgan Circular Fingerprint
 - Metric for rating enzyme activity
 - Method for clustering enzymes based on substrate features
