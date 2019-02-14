@@ -21,17 +21,19 @@ See the further review for [Metabolic pathway databases and model repositories](
   * Compounds
   * Enzymes
   * Reactions
-* Database
+* Databases (roughly organized in order of which ones we will focus on)
   * [KEGG](https://www.genome.jp/kegg/)
   * [ATLAS](http://lcsb-databases.epfl.ch/atlas/)
   * [Brenda?](https://www.brenda-enzymes.org/)
   * [MetaCyc?](https://metacyc.org/)
   * [Biochem4j?](https://github.com/synbiochem/biochem4j)
+* Existing Software
+  * RDKit
 
 Key practical questions to be solved
 - What tools and methods are available right now?
 - Why do we have to do this? Will it be useful? Clarify the novelty of this project!
-- Which database should be focused on?
 - How do we extract data from the available database?
+- How to validate the model's accuracy?
 - What is our short-term, medium, and long-term goals?
 - How to assign each part of the project to our members appropriately?
