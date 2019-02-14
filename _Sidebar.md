@@ -3,4 +3,5 @@
 - [Literature Review](https://github.com/theicechol/metamoles/wiki/Literature-Review)
     - [2018 Robot Org. Synt.](https://github.com/theicechol/metamoles/wiki/2018---Controlling-an-organic-synthesis-robot-with-machine-learning-to-search-for-new-reactivity)
     - [2017 Review of metabolic pathway design tools](https://github.com/theicechol/metamoles/wiki/Review-of-metabolic-pathway-design-tools-(2017))
-- [Questions and Considerations](https://github.com/theicechol/metamoles/wiki/Questions-and-Considerations)
+    - [2018 Planning chemical syntheses with deep neural networks and symbolic AI](https://github.com/theicechol/metamoles/wiki/2018---Planning-chemical-syntheses-with-deep-neural-networks-and-symbolic-AI)
+- [Questions and Considerations](https://github.com/theicechol/metamoles/wiki/Questions-and-Considerations) 
