@@ -76,3 +76,13 @@ Segler, M. H. S., Preuss, M., Waller, M. P. "Planning chemical synthesis with de
 > The author made a platform for reaction planning based on retrosynthesis. They used MTCS (Monte-Carlo Tree Search) and Neural Networks to build to the platform. The data used for training came from Reaxys database in which they extract reaction center from the published chemical reactions prior to 2015 for training and the rest for testing. The double-blind test with chemistry graduate students suggested that this search is not significantly inferior to those published in the literature.
 
 [See details here](https://github.com/theicechol/metamoles/wiki/2018---Planning-chemical-syntheses-with-deep-neural-networks-and-symbolic-AI)
+
+Lee, S. Y., et. al. "A comprehensive metabolic map for production of bio-based chemicals" **2019**, _Nature Catalysis_, 2, 18-33.
+> This review provides resourceful chemical synthesis pathway from both biological and chemical syntheses. General compounds for industrial usage are listed and mapped. A cross-linked pathway with biological/chemical reactions are provided as well. This should be a good start to look for a specific pathway for testing.
+
+See original review [here](https://github.com/theicechol/metamoles/blob/master/Related%20articles/A%20comprehensive%20metabolic%20map.pdf)
+
+de Souza, R. O. M. A., Miranda, L. S. M., Bornscheuer, U. T. "A Retrosynthesis Approach for Biocatalysis in Organic Synthesis" **2017**, _Chem. Euro. J._, 23, 12040-12063.
+> This review provided an easy explanation of biochemical retrosynthesis by introducing a biocatalytic pathway for chemical transformation of each synthon (fragment) with side-by-side comparison in organic synthesis. See the summary part for short intuition. If this bio-retrosynthesis style can be made into a software tool, that's our project.
+
+See original review [here](https://github.com/theicechol/metamoles/blob/master/Related%20articles/A%20Retrosynthesis%20Approach%20for%20Biocatalysis%20in%20Organic%20Synthesis.pdf)
