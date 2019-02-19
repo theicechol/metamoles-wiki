@@ -4,6 +4,9 @@
 
 #### Purpose: to develop a program that suggests biosynthetic enzyme pathways for user-provided molecular end products.
 
+#### Drafted FlowChart
+![Drafted_FlowChart](https://github.com/theicechol/metamoles/blob/master/figures/FlowChart_0.png "FlowChart_0")
+
 #### To do:
 * Lit review
   * Everyone find/read ~3 papers relevant to the project at hand, and generate an [annotated bibliography](https://guides.library.cornell.edu/annotatedbibliography)
