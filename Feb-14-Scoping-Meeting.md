@@ -17,11 +17,15 @@ Databases:
 
 Training data:
 - Either train on existing dataset of known promiscuous enzymes OR
-- Train on existing data on know primary enzyme activities
+- Train on existing data on known primary enzyme activities
 
 Testing data:
 - 1st level: predict known activities of natural enzymes that have been left out of training data
 - 2nd level: predict known promiscuous activities of enzymes
+
+Validation:
+- compare with native pathways e.g) GTP to folate 
+- compare with unnatural but reported pathway  
 
 Requirements:
 - Metric for chemical similarity
