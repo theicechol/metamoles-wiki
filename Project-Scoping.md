@@ -32,6 +32,7 @@ See the further review for [Metabolic pathway databases and model repositories](
   * Unnatural but reported pathways
 * Existing Software
   * RDKit
+* [Chemical similarity](https://en.wikipedia.org/wiki/Chemical_similarity)
 
 Key practical questions to be solved
 - What tools and methods are available right now?
