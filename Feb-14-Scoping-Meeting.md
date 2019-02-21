@@ -72,3 +72,60 @@ ATLAS gives us scope -separates rxns that have known enzymes vs those that don't
 - Tyo lab - not much data on promiscuity - very few enzymes have more than twenty substrates
 - first find group of enzyme (e.g. oxidation), then find enzyme that matches the substrate (change carboxylic acid to alcohol- the other part of the molecule will be recognized by enzyme) - two steps- find enzyme that recognizes the functional group, find substrate scope of those enzymes. 
 :- search for intersection of groups 
+
+-------
+
+### 2/21/19 *Proposal: Limiting Project Scope to Promiscuous Enzymes Portion*
+
+Enzymes are differentially able to be promiscuous. Assume any enzyme can be promiscuous (big assumption!). Goal of model: predict enz with chemical transformation for a chemical transformation that doesn't have a known catalyst
+
+input target compound (sub/product pair? that complicates things) - any route to this target is feasible
+
+RDKit substructure matching - figuring out if one chemical is part of another. constraint: previous steps should be substructures. prevent edge case by only building, not breaking down things
+
+create tool for one-step transformations
+
+output: enzyme or list of enzymes, each with a score that we can rank based on how likely they are to have promiscuous activity that results in the creation of the input compound
+
+Focus: what type of enzymes? - pick an enzyme based on major substrate... narrow down enzymes that we are studying. pick less complex enzyme/substrate relationships
+
+EC numbers (7 of them) - choose a class and/or subclass to narrow scope. train model using these and other things as feature vectors. try with all of them and then limit the number of enzymes if it is messy.
+
+what is our training set data? test set? KEGG - query all enzymes with x > 1 rxn associated (cleaning this will be difficult), have list of enzyme/substrate/product/size of enzyme/extended info/MW/etc, group by common enzyme then characterize the shifts (looking at products) - how to get from one to the next - RDKit to characterize the delta between the product compounds (tanimoto similarity index? substructure vs completely different? expected vs unexpected), training it on chemical similarity/relatvitiy, build list of tolerated shifts "plus methyl group, minus conjugation, etc", chemical constraints, another thing that RDKit can do is find the greatest common denominator/ max common substructure - chemical structure three parts: 1) rxn center (where chemistry occurs) 2) recognition part 3) variations - need some sort of algorithm that will assign the rxn center, can make a group using this information, characterize for each of promiscuous enzyme groups. training data looks like: promiscuous enzyme, rxn center, recognition part, variation, size, cofactor, etc etc. Then divide this pool into training and test set. train model to take one of the vectors and return an enzyme. test new substrate by input substrate, run the variation maker thing to create similar compounds, go to database and search enzymes that react on varied compounds, use model to score which of the shifts and the associated enzyme is most likely to be promiscuous.
+
+another approach: get substrate, apply similarity index, 
+enzyme with original substrate -> expand (apply similarity index) to set of compounds -> divide (80/20) training and testing. training **Problem** we don't know which are known and which are hypothetical 
+
+RDKit: compare substrate and product to find reaction center. 
+
+issue for data cleaning: how to remove reaction promiscuity
+
+after the data cleaning and all that stuff: next step is grouping in Stephen's manner, the chemical shift?, if rxn center is easy to find we should, in one paper they limit the reaction by distance for promiscuity, 
+
+maybe conserve bonds: within 3 bonds? within four bonds?
+
+
+
+
+#### Example
+
+**How to use the tool:**
+
+Input compound: phenol
+
+1) define rxn center
+2) vary structure outside of rxn center - get list of related compounds
+3) take list of related compounds and search database for enzymes that make those compounds - 
+4) get list of enzymes that have those varied compounds as product
+5) ML to score enzymes for predicted promiscuity (how to build this?)
+
+**How to build the tool:**
+
+
+
+**Constraints:**
+
+- single step
+- previous step is substructure 
+- enzyme class
+- substrate complexity
