@@ -5,6 +5,9 @@ By using their workflow, the desired pathway will be achieved. Their goal is to 
 There is a tool available for us to test but I cannot get it to work yet.
 [See publication here](https://github.com/theicechol/metamoles/blob/master/Related%20articles/RetroPath_2.pdf)
 
+*Ellie*
+I downloaded this and it looks like it is a pretty powerful tool. I have not succeeded in making it work, though, which means that it is not as user friendly as it could be. 
+
 # [RetroRules](https://retrorules.org/)
 
 RetroRules is a database designed for pathway search (including enzyme promiscuity). The input can be either enzyme ID, reaction ID, chemical name, or InChI (similar to SMILES but contain more information).
