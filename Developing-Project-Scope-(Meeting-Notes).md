@@ -1,4 +1,43 @@
-# Scoping discussion 2/14
+## Current version: 2/21/19 (see dated notes below)
+
+### Goal:
+> Predict an enzyme for a chemical transformation that doesn't have a known biocatalyst.
+
+### Open Questions and Considerations:
+* How to get rxn center
+* data cleaning (remove duplicates, remove reaction promiscuity but preserve substrate promiscuity)
+
+
+### Example
+
+**How to use the tool:**
+
+Input compound: phenol
+
+1) define rxn center
+2) vary structure outside of rxn center - get list of related compounds
+3) take list of related compounds and search database for enzymes that make those compounds - 
+4) get list of enzymes that have those varied compounds as product
+5) ML to score enzymes for predicted promiscuity (how to build this?)
+
+**How to build the tool:**
+
+1) Access KEGG data
+2) Select and vectorize features
+3) ML
+4) RDKit
+
+**Constraints:**
+
+- single step
+- previous step is substructure 
+- enzyme class
+- substrate complexity
+
+
+--------
+
+## Scoping discussion 2/14
 
 ### Refined proposal:
 
@@ -36,6 +75,8 @@ Requirements:
 
 --------
 
+### 2/19/19
+
 Databases
 - see the previous list
 
@@ -67,7 +108,7 @@ What tool are we using to measure similarity?
 ATLAS gives us scope -separates rxns that have known enzymes vs those that don't- allows us to find the novel rxns
 - expands the number of enzymes we have to select from (putative enzymes)
 
-## NEED
+### NEED
 - good dataset with promiscuous activities
 - Tyo lab - not much data on promiscuity - very few enzymes have more than twenty substrates
 - first find group of enzyme (e.g. oxidation), then find enzyme that matches the substrate (change carboxylic acid to alcohol- the other part of the molecule will be recognized by enzyme) - two steps- find enzyme that recognizes the functional group, find substrate scope of those enzymes. 
@@ -102,12 +143,26 @@ ATLAS gives us scope -separates rxns that have known enzymes vs those that don't
 ### Question/Discussion:
 
 What is our training set data? test set? 
-> KEGG - query all enzymes with x > 1 rxn associated (cleaning this will be difficult), have list of enzyme/substrate/product/size of enzyme/extended info/MW/etc, group by common enzyme then characterize the shifts (looking at products) - 
 
-how to get from one to the next? - RDKit to characterize the delta between the product compounds (tanimoto similarity index? substructure vs completely different? expected vs unexpected), training it on chemical similarity/relatvitiy, build list of tolerated shifts "plus methyl group, minus conjugation, etc", chemical constraints, another thing that RDKit can do is find the greatest common denominator/ max common substructure - chemical structure three parts: 1) rxn center (where chemistry occurs) 2) recognition part 3) variations - need some sort of algorithm that will assign the rxn center, can make a group using this information, characterize for each of promiscuous enzyme groups. training data looks like: promiscuous enzyme, rxn center, recognition part, variation, size, cofactor, etc etc. Then divide this pool into training and test set. train model to take one of the vectors and return an enzyme. test new substrate by input substrate, run the variation maker thing to create similar compounds, go to database and search enzymes that react on varied compounds, use model to score which of the shifts and the associated enzyme is most likely to be promiscuous.
+* KEGG - query all enzymes with x > 1 rxn associated (cleaning this will be difficult), have list of enzyme/substrate/product/size of enzyme/extended info/MW/etc, group by common enzyme then characterize the shifts (looking at products) - 
+
+how to get from one to the next? 
+
+* RDKit to characterize the delta between the product compounds (tanimoto similarity index? substructure vs completely different? expected vs unexpected)
+* training it on chemical similarity/relatvitiy
+* build list of tolerated shifts "plus methyl group, minus conjugation, etc", chemical constraints, 
+* another thing that RDKit can do is find the greatest common denominator/ max common substructure  
+* chemical structure three parts: 
+> 1) rxn center (where chemistry occurs) 
+2) recognition part 
+3) variations - 
+
+* need some sort of algorithm that will assign the rxn center
+** can make a group using this information, characterize for each of promiscuous enzyme groups. 
+* training data looks like: promiscuous enzyme, rxn center, recognition part, variation, size, cofactor, etc etc. Then divide this pool into training and test set. train model to take one of the vectors and return an enzyme. test new substrate by input substrate, run the variation maker thing to create similar compounds, go to database and search enzymes that react on varied compounds, use model to score which of the shifts and the associated enzyme is most likely to be promiscuous.
 
 *Did not select this idea:* Another potential approach: get substrate, apply similarity index, 
-enzyme with original substrate -> expand (apply similarity index) to set of compounds -> divide (80/20) training and testing. training **Problem** we don't know which are known and which are hypothetical reactions
+enzyme with original substrate -> expand (apply similarity index) to set of compounds -> divide (80/20) training and testing. training **Problem:** we don't know which are known and which are hypothetical reactions
 
 RDKit: compare substrate and product to find reaction center. 
 
@@ -116,8 +171,6 @@ Issue for data cleaning: how to remove reaction promiscuity
 after the data cleaning and all that stuff: next step is grouping in Stephen's manner, the chemical shift?, if rxn center is easy to find we should, in one paper they limit the reaction by distance for promiscuity, 
 
 maybe conserve bonds: within 3 bonds? within four bonds?
-
-
 
 
 ### Example
