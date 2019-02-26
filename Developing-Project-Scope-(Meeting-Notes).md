@@ -2,6 +2,7 @@
 
 ### Goal:
 > Predict an enzyme for a chemical transformation that doesn't have a known biocatalyst.
+> Makes clusters by enzyme class (7) or chemical transformation so that it becomes a classification problem of 7 items instead of 500 (number of promiscuous enzymes).
 
 ### Open Questions and Considerations:
 * How to get rxn center
