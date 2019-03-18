@@ -1,5 +1,5 @@
 # Planning chemical synthesis with deep neural networks and symbolic AI
-## [Link to the original paper](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Planning_chemical_syntheses_with_deep_neural_networks_and_sympolic_AI.pdf)
+## [Link to the original paper](https://www.nature.com/articles/nature25978)
 From Mark P. Waller group
 
 ### Summary
