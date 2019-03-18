@@ -5,13 +5,13 @@ We can add our [annotated bibliographies](https://guides.library.cornell.edu/ann
 > The authors used molecular similarity to rank one-step retrosynthetic disconnections based on analogy to precedent reactions. Reaction templates were used only at the most rudimentary level to generate chemically valid precursor molecules. Similarity was calculated by reflecting the extent of overlapping substructures. Quantification of molecular similarity generally requires fingerprinting technique and this research focus their evaluation on Morgan circular fingerprint as implemented in RDKit. 
 
 
-See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Computer-Assisted%20Retrosynthesis%20Based%20on%20Molecular%20Similarity.pdf)
+See further explanation in the [full review](https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00355)
 
 ### Ice
 **Granda, J. M., Donina, L., Dragone, V., Long, D.-L., Cronin, L. Controlling an organic synthesis robot with machine learning to search for new reactivity. *Nature* (2018), 559, 378-381.**
 > The authors utilized supported vector machine (SVM) to predict the reactivity of chemical reactions. The model was trained on randomly generated chemical reactions which were performed by a robot equipped with sufficient characterization instruments. The generated model can efficiently predict the reactivity the other reactions with the reaction universe. The SVM model might be applicable to this project using similar vector representation shown in the article.
 
-See further explanation in the [full review](https://github.com/theicechol/metamoles/wiki/2018---Controlling-an-organic-synthesis-robot-with-machine-learning-to-search-for-new-reactivity)
+See further explanation in the [full review](https://www.nature.com/articles/s41586-018-0307-8)
 
 ### Ellie
 **Swainston N, Batista-Navarro R, Carbonell P, Dobson PD, Dunstan M, Jervis AJ, et al. (2017) biochem4j: Integrated and extensible
@@ -26,7 +26,7 @@ See further explanation in the [full review](https://doi.org/10.1371/journal.pon
 
 *Could be useful in terms of predicted enzyme promiscuity*
 
-See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/MINEsOpenAccessDatabasesOfComp.pdf)
+See further explanation in the [full review](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0087-1)
 
 ### Ellie
 **Seglers, M.H.S. and Mark. P. Waller. Neural-Symbolic Machine Learning for Retrosynthesis and Reaction Prediction. *Chem. Eur. J.* (2017), 23, 5966-5971.** 
@@ -36,7 +36,7 @@ See further explanation in the [full review](https://github.com/theicechol/metam
 
 *Everything I've read so far uses RDKit*
 
-See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Neural-Symbolic%20Machine%20Learning%20for%20Retrosynthesis.pdf) or [supporting information](chem201605499-sup-0001-misc_information.pdf)
+See further explanation in the [full review](https://onlinelibrary.wiley.com/doi/full/10.1002/chem.201605499) or [supporting information](chem201605499-sup-0001-misc_information.pdf)
 
 ### Phil
 **Pertussi, D., Moura, M., Jeffryes, J., Prabhu, S., Walters Biggs, B., Tyo, K.E. Predicting novel substrates for enzymes with minimal experimental effort with active learning. *Metabolic Engineering* (2017), 44, 171-181.**
@@ -44,11 +44,13 @@ See further explanation in the [full review](https://github.com/theicechol/metam
 
 *This is a helpful paper because we want to do essentially the same thing but in reverse, choosing enzymes that are potentially promiscuous towards our selected substrate.*
 
-See further explanation in the [full review](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Pertusi%20et%20al.%20-%20Predicting%20novel%20substrates%20for%20enzymes%20with%20minimal%20experimental%20effort%20with%20active%20learning%20-%202017%20-%20Unknown.pdf)
+See further explanation in the [full review](https://www.sciencedirect.com/science/article/pii/S1096717617300708)
 
 ### Yeon
 **Feng, Fan, Luhua Lai, and Jianfeng Pei. "Computational chemical synthesis analysis and pathway design." Frontiers in chemistry 6 (2018).**
 > The authors introduce two-step models which combine reaction rules and statistical method. Machine learning plays the role of decision making and the decision gets generated using reaction rules or structural rules. They also mention about fully end-to-end retrosynthesis analysis with deep neural networks. However, they point out the low accuracy of retrosynthesis prediction of this method. 
+[Link to publication](https://www.frontiersin.org/articles/10.3389/fchem.2018.00199/full)
+
 
 ### Stephen
 **Hadadi, Noushin, et al. "ATLAS of biochemistry: a repository of all possible biochemical reactions for synthetic biology and metabolic engineering studies." ACS synthetic biology 5.10 (2016).**
@@ -62,6 +64,7 @@ Full paper can be found [here](https://pubs.acs.org/doi/abs/10.1021/acssynbio.6b
 **Heckmann, David, et al. "Machine learning applied to enzyme turnover numbers reveals protein structural correlates and improves metabolic models." Nature communications 9.1 (2018): 5252.**
 
 > Authors used machine learning to predict catalytic turnover numbers in E-coli based on integrated at a on enzyme biochemistry, protein structure, and network context. They combined known correlates of cat with novel features for enzyme structure, biochemical mechanism, network context, and assay condition to build machine learning models of k cat in vitro and k appmax. Although this method gives more insight to mechanistic metabolic models, one major limitation of statistical modelling of catalytic turnover numbers is the small size of the dataset (k cat in vitro and k app, max). The most promising output k app, max is limited to unique homomers. 
+See publication [here](https://www.nature.com/articles/s41467-018-07652-6)
 
 ### Stephen
 **Wang, Lin, et al. "A review of computational tools for design and reconstruction of metabolic pathways." Synthetic and systems biotechnology 2.4 (2017)**
@@ -75,14 +78,14 @@ In the computational tools review, it concludes "Overall, a completely automated
 Segler, M. H. S., Preuss, M., Waller, M. P. "Planning chemical synthesis with deep neural networks and symbolic AI" **2018**, _Nature_ 555, 604–610
 > The author made a platform for reaction planning based on retrosynthesis. They used MTCS (Monte-Carlo Tree Search) and Neural Networks to build to the platform. The data used for training came from Reaxys database in which they extract reaction center from the published chemical reactions prior to 2015 for training and the rest for testing. The double-blind test with chemistry graduate students suggested that this search is not significantly inferior to those published in the literature.
 
-[See details here](https://github.com/theicechol/metamoles/wiki/2018---Planning-chemical-syntheses-with-deep-neural-networks-and-symbolic-AI)
+[See details here](https://www.nature.com/articles/nature25978)
 
 Lee, S. Y., et. al. "A comprehensive metabolic map for production of bio-based chemicals" **2019**, _Nature Catalysis_, 2, 18-33.
 > This review provides resourceful chemical synthesis pathway from both biological and chemical syntheses. General compounds for industrial usage are listed and mapped. A cross-linked pathway with biological/chemical reactions are provided as well. This should be a good start to look for a specific pathway for testing.
 
-See original review [here](https://github.com/theicechol/metamoles/blob/master/Related%20articles/A%20comprehensive%20metabolic%20map.pdf)
+See original review [here](https://www.nature.com/articles/s41929-018-0212-4)
 
 de Souza, R. O. M. A., Miranda, L. S. M., Bornscheuer, U. T. "A Retrosynthesis Approach for Biocatalysis in Organic Synthesis" **2017**, _Chem. Euro. J._, 23, 12040-12063.
 > This review provided an easy explanation of biochemical retrosynthesis by introducing a biocatalytic pathway for chemical transformation of each synthon (fragment) with side-by-side comparison in organic synthesis. See the summary part for short intuition. If this bio-retrosynthesis style can be made into a software tool, that's our project.
 
-See original review [here](https://github.com/theicechol/metamoles/blob/master/Related%20articles/A%20Retrosynthesis%20Approach%20for%20Biocatalysis%20in%20Organic%20Synthesis.pdf)
+See original review [here](https://onlinelibrary.wiley.com/doi/full/10.1002/chem.201702235)
