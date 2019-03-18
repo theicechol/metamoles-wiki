@@ -1,5 +1,5 @@
 # Controlling an organic synthesis robot with machine learning to search for new reactivity
-## [Link to the original paper](https://github.com/theicechol/metamoles/blob/master/Related%20articles/Controlling_an_organic_synthesis_robot_with_machine_learning_to_search_for_new_reactivity.pdf)
+## [Link to the original paper](https://www.nature.com/articles/s41586-018-0307-8)
 
 A paper from U of Glasgow, UK
 
