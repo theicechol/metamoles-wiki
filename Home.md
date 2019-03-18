@@ -7,3 +7,6 @@ Our purpose is to create **A tool that suggests enzymes with predicted promiscuo
 Check [Project Scoping](https://github.com/theicechol/metamoles/wiki/Project-Scoping) for further information about the project scope.
 
 See [Literature Review](https://github.com/theicechol/metamoles/wiki/Literature-Review) for our relevant studies and our background research.
+
+[ExpectedWork](https://github.com/theicechol/metamoles/blob/master/figures/Expected_RetroSynthesis_Output.png)
+[ExampleVisualization](https://github.com/theicechol/metamoles/blob/master/figures/Query_Examples.png)
