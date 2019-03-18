@@ -8,5 +8,5 @@ Check [Project Scoping](https://github.com/theicechol/metamoles/wiki/Project-Sco
 
 See [Literature Review](https://github.com/theicechol/metamoles/wiki/Literature-Review) for our relevant studies and our background research.
 
-[ExpectedWork](https://github.com/theicechol/metamoles/blob/master/figures/Expected_RetroSynthesis_Output.png)
-[ExampleVisualization](https://github.com/theicechol/metamoles/blob/master/figures/Query_Examples.png)
+![ExpectedWork](https://github.com/theicechol/metamoles/blob/master/figures/Expected_RetroSynthesis_Output.png)
+![ExampleVisualization](https://github.com/theicechol/metamoles/blob/master/figures/Query_Examples.png)
