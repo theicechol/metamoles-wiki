@@ -1,4 +1,5 @@
 - [Home](https://github.com/theicechol/metamoles/wiki)
+- [Use Cases](https://github.com/theicechol/metamoles/wiki/Use-Cases-and-Components)
 - [Project Scoping](https://github.com/theicechol/metamoles/wiki/Project-Scoping)
     - [Meeting notes](https://github.com/theicechol/metamoles/wiki/Developing-Project-Scope-(Meeting-Notes))
 - [Literature Review](https://github.com/theicechol/metamoles/wiki/Literature-Review)
